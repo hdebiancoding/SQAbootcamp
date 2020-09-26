@@ -1,0 +1,20 @@
+{
+  "name": "piautomation",
+  "version": "1.0.0",
+  "main": "conf.js",
+  "dependencies": {
+    "protractor": "^7.0.0",
+    "jasmine-data-provider": "^2.2.0",
+    "protractor-jasmine2-html-reporter": "^0.0.7"
+  },
+  "scripts": {
+    "wupdate": "webdriver-manager update",
+    "wstart": "webdriver-manager start",
+    "protractor": "protractor conf.js",
+    "start": "npm run wupdate && npm run wstart && npm run protractor"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "description": ""
+}
